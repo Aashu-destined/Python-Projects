@@ -22,6 +22,10 @@ questions = [
 
 levels = [1000, 2000, 3000, 5000, 10000, 20000, 40000, 80000, 160000, 320000]
 money = 0
+
+print('''Welcome to Kaun Banega Crorepati!
+Answer the following questions correctly to win prize money!
+You have 4 choices for each question. Good luck!''')
 for i in range(0, len(questions)):
   
   question = questions[i]
